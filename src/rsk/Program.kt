@@ -23,7 +23,7 @@ fun main(args: Array<String>) : Unit {
     val titles = meetings
         .filter {it -> it.title.startsWith("S")}
         .map { m-> m.title }
-    
+
     for (t in titles) println(t)
 }
 
