@@ -20,17 +20,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rsk/Program.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="2" selection-end-line="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="20" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rsk/Flatten.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rsk/Predicates.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,8 +59,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rsk/Program.kt" />
         <option value="$PROJECT_DIR$/src/rsk/Predicates.kt" />
+        <option value="$PROJECT_DIR$/src/rsk/Meeting.kt" />
+        <option value="$PROJECT_DIR$/src/rsk/Program.kt" />
+        <option value="$PROJECT_DIR$/src/rsk/Flatten.kt" />
       </list>
     </option>
   </component>
@@ -97,6 +108,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -113,7 +127,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.rsk.PredicatesKt">
+  <component name="RunManager" selected="Kotlin.rsk.FlattenKt">
+    <configuration name="rsk.FlattenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-filter-and-sort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="rsk.FlattenKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="rsk.PredicatesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-filter-and-sort" />
       <option name="VM_PARAMETERS" />
@@ -142,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.rsk.FlattenKt" />
         <item itemvalue="Kotlin.rsk.PredicatesKt" />
         <item itemvalue="Kotlin.rsk.ProgramKt" />
       </list>
@@ -157,12 +185,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559073002250</updated>
-      <workItem from="1559073008738" duration="1385000" />
+      <workItem from="1559073008738" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1385000" />
+    <option name="totallyTimeSpent" value="2123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="838" height="1050" extended-state="0" />
@@ -173,7 +201,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3253769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3253769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3291536" />
       <window_info anchor="bottom" id="Docker" />
@@ -183,7 +211,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,17 +231,31 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rsk/Program.kt">
+    <entry file="file://$PROJECT_DIR$/src/rsk/Predicates.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="2" selection-end-line="4" />
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rsk/Predicates.kt">
+    <entry file="file://$PROJECT_DIR$/src/rsk/Meeting.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rsk/Program.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rsk/Flatten.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>

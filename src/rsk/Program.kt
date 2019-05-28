@@ -28,5 +28,7 @@ fun main(args: Array<String>) : Unit {
 }
 
 class Meeting(val id: Int, val title: String) {
-
+    val people = listOf(Person("Ray"), Person("Steph"))
 }
+
+data class Person(val name: String) {}
